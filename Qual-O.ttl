@@ -1,11 +1,10 @@
-# baseURI: http://sensornet.abdn.ac.uk/onts/Qual-O
+# baseURI: http://www.w3id.org/qual-o/Qual-O
 # imports: http://www.w3.org/ns/prov
 
 @prefix owl:     <http://www.w3.org/2002/07/owl#> .
-@prefix property:  <http://dtp-126.sncs.abdn.ac.uk/quality/SensorBox/Property/> .
 @prefix prov:    <http://www.w3.org/ns/prov#> .
 @prefix prov-dc:  <http://www.w3.org/ns/prov-dc#> .
-@prefix qual:    <http://sensornet.abdn.ac.uk/onts/Qual-O#> .
+@prefix qual:    <http://www.w3id.org/qual-o/Qual-O#> .
 @prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sp:      <http://spinrdf.org/sp#> .
@@ -13,7 +12,7 @@
 @prefix spl:     <http://spinrdf.org/spl#> .
 @prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
 
-<http://sensornet.abdn.ac.uk/onts/Qual-O>
+<http://www.w3id.org/qual-o/Qual-O>
       rdf:type owl:Ontology ;
       owl:imports <http://www.w3.org/ns/prov> ;
       owl:versionInfo "Created with TopBraid Composer"^^xsd:string .
